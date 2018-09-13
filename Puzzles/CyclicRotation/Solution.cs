@@ -54,8 +54,27 @@ namespace Puzzles.CyclicRotation
     {
         public int[] solution(int[] A, int K)
         {
-            return new int[0];
+            if (K == A.Length)
+                return A;
+            int[] returnValue = shiftPositions(A, K);
+            return returnValue;
         }
 
+        private int[] shiftPositions(int[] A, int K)
+        {
+            int[] returnValue = new int[A.Length];
+            for (int i = 0; i < A.Length; i++)
+            {
+                int newPosition = calculateNewPosition(A, K, i);
+                returnValue[newPosition] = A[i];
+            }
+
+            return returnValue;
+        }
+
+        private int calculateNewPosition(int[] A, int K, int i)
+        {
+            return (i + K) % A.Length;
+        }
     }
 }
