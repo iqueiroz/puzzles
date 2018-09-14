@@ -58,6 +58,7 @@
   <ItemGroup>
     <Compile Include="BinaryGap.cs" />
     <Compile Include="CyclicRotation.cs" />
+    <Compile Include="FrogJmp.cs" />
     <Compile Include="OddOccurrencesInArray.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
