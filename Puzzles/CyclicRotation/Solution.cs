@@ -49,15 +49,20 @@ source: https://app.codility.com/programmers/lessons/2-arrays/cyclic_rotation/
 
 namespace Puzzles.CyclicRotation
 {
-    using System;
     public class Solution
     {
         public int[] solution(int[] A, int K)
         {
-            if (K == A.Length)
+            if (newPositionsAreTheSame(A, K))
                 return A;
+
             int[] returnValue = shiftPositions(A, K);
             return returnValue;
+        }
+
+        private static bool newPositionsAreTheSame(int[] A, int K)
+        {
+            return A.Length == 0 || K % A.Length == 0;
         }
 
         private int[] shiftPositions(int[] A, int K)
