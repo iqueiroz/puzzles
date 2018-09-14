@@ -46,24 +46,11 @@ namespace Puzzles.OddOccurrencesInArray
     {
         public int solution(int[] A)
         {
-            if (A.Length == 1)
-                return A[0];
+            var result = 0;
+            foreach (var item in A)
+                result ^= item;
 
-            var sorted = A.OrderBy(x => x).ToArray();
-
-            int i = 0;
-            do
-            {
-                if (i == sorted.Length - 1)
-                    return sorted[i];
-                else if (sorted[i] != sorted[i + 1])
-                    return sorted[i];
-                else
-                    i+=2;
-            } while (i < sorted.Length);
-
-            throw new NotSupportedException(String.Format("All numbers on the array are even: {0}", String.Join(",", sorted)));
-            
+            return result;            
         }
     }
 }
