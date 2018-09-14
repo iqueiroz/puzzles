@@ -42,6 +42,7 @@
   <ItemGroup>
     <Compile Include="CyclicRotation\Solution.cs" />
     <Compile Include="BinaryGap\Solution.cs" />
+    <Compile Include="OddOccurrencesInArray\Solution.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup />

@@ -60,7 +60,7 @@ namespace Puzzles.CyclicRotation
             return returnValue;
         }
 
-        private static bool newPositionsAreTheSame(int[] A, int K)
+        private bool newPositionsAreTheSame(int[] A, int K)
         {
             return A.Length == 0 || K % A.Length == 0;
         }
