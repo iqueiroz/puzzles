@@ -57,6 +57,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BinaryGap.cs" />
+    <Compile Include="MaxCounters.cs" />
     <Compile Include="CyclicRotation.cs" />
     <Compile Include="PermCheck.cs" />
     <Compile Include="FrogRiverOne.cs" />
