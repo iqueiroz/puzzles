@@ -44,6 +44,7 @@
     <Compile Include="BinaryGap\Solution.cs" />
     <Compile Include="FrogJmp\Solution.cs" />
     <Compile Include="OddOccurrencesInArray\Solution.cs" />
+    <Compile Include="PermCheck\Solution.cs" />
     <Compile Include="PermMissingElem\Solution.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="TapeEquilibrium\Solution.cs" />
