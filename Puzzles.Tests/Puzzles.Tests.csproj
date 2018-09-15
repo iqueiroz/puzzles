@@ -59,6 +59,7 @@
     <Compile Include="BinaryGap.cs" />
     <Compile Include="CyclicRotation.cs" />
     <Compile Include="PermCheck.cs" />
+    <Compile Include="FrogRiverOne.cs" />
     <Compile Include="TapeEquilibrium.cs" />
     <Compile Include="PermMissingElem.cs" />
     <Compile Include="FrogJmp.cs" />

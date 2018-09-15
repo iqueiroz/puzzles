@@ -43,6 +43,7 @@
     <Compile Include="CyclicRotation\Solution.cs" />
     <Compile Include="BinaryGap\Solution.cs" />
     <Compile Include="FrogJmp\Solution.cs" />
+    <Compile Include="FrogRiverOne\Solution.cs" />
     <Compile Include="OddOccurrencesInArray\Solution.cs" />
     <Compile Include="PermCheck\Solution.cs" />
     <Compile Include="PermMissingElem\Solution.cs" />
