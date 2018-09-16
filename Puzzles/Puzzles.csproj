@@ -51,6 +51,11 @@
     <Compile Include="PermMissingElem\Solution.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="TapeEquilibrium\Solution.cs" />
+    <Compile Include="Task1\Solution.cs" />
+    <Compile Include="Task3\Solution.cs" />
+    <Compile Include="Task2\Solution.cs" />
+    <Compile Include="Utils\Euclidian.cs" />
+    <Compile Include="Utils\Fibonacci.cs" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
